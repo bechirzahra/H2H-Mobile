@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Add User"
+        android:textSize="40dp" />
+
+   <EditText
+       android:id="@+id/username_btn_pa"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Username"/>
+    <EditText
+        android:id="@+id/password_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:password="true"/>
+    <EditText
+        android:id="@+id/password_btn_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Check Password"
+        android:password="true"/>
+    <EditText
+        android:id="@+id/address_btn_pa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adress"/>
+    <EditText
+        android:id="@+id/phone_btn_pa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        />
+    <EditText
+        android:id="@+id/phone_btn_patient_securty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone security"
+        />
+    <Button
+        android:id="@+id/add_patient"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="Add"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
